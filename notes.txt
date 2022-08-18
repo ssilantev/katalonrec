@@ -13,3 +13,7 @@
 https://www.epicgames.com/store/ru/news.ru
 
   //section//div[2]//img[@data-testid='picture-image']
+
+Задание*
+
+//button[starts-with(@title,'Passwords')]
