@@ -1,0 +1,15 @@
+2. Написать 5 вариантов селекторов для поля «Пароль» на
+сайте https://eu.battle.net/login/ru/. Один из вариантов
+должен включать родительский элемент
+
+  #password
+  [type=password]
+  //input[@id!="accountName"][@type!='hidden'][@type!='checkbox']
+  //input[@data-password-hide-aria]
+  //div[@class='blz-password-wrapper']/input
+
+3. Написать локатор для второй картинки в неупорядоченном
+списке на странице
+https://www.epicgames.com/store/ru/news.ru
+
+  //section//div[2]//img[@data-testid='picture-image']
